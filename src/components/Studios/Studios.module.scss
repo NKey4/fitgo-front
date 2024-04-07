@@ -1,0 +1,54 @@
+.studiosWrapper {
+  align-items: center;
+  box-sizing: inherit;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.studiosHeader {
+  width: 100%;
+  z-index: 9;
+  padding-bottom: 16px;
+  text-decoration: none;
+  left: 0px;
+  margin: 0px;
+  padding: 24px 40px 32px;
+  border-bottom: 1px solid rgb(211, 212, 229);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+.studiosBar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 24px;
+}
+
+.editButtons {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.15s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.Studio {
+  &:hover {
+    border: 1px solid blue;
+    box-shadow: 0 0 0 1px blue;
+  }
+  img {
+  }
+}

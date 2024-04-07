@@ -1,0 +1,43 @@
+.Company {
+  background: url(https://1fit.app/static/bg-842d9fb5509dc48777feee7c95a528c2.jpg);
+  min-height: 760px;
+  width: 100%;
+  height: calc(-88px + 100vh);
+}
+
+.container {
+  max-width: 1280px;
+  column-gap: 151px;
+  color: #fff;
+  margin: 0px auto;
+  display: flex;
+}
+
+.content {
+  padding-top: 258px;
+  max-width: 380px;
+  h1 {
+    line-height: 1.5;
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  button {
+    color: rgb(52, 71, 246);
+    text-transform: none;
+    border: none;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    min-width: 196px;
+    cursor: pointer;
+  }
+}
+
+.image {
+  padding-top: 108px;
+}

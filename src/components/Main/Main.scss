@@ -1,0 +1,62 @@
+.Main {
+  align-items: center;
+  box-sizing: inherit;
+  display: flex;
+  line-height: 24px;
+
+  background-color: rgb(52, 71, 246);
+}
+
+.img {
+  cursor: pointer;
+}
+
+.mainLeft {
+  padding: 0 70px 0 40px;
+}
+
+.h1_mainLeft {
+  line-height: 120%;
+  display: block;
+  font-size: 64px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin: 16px 0;
+}
+
+.h4_mainLeft {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: rgb(255, 255, 255);
+}
+
+.price_mainLeft {
+  display: flex;
+  margin-top: 36px;
+  align-items: center;
+}
+
+.button_price_mainLeft {
+  background: rgb(255, 255, 255);
+  border: none;
+  box-sizing: inherit;
+  border-radius: 24px;
+  padding: 0 32px;
+  height: 56px;
+  width: auto;
+  min-width: 216px;
+  font-size: 16px;
+  margin-right: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: none;
+  color: rgb(52, 71, 246);
+  cursor: pointer;
+}
+
+.main_right {
+  display: flex;
+  align-self: flex-end;
+}
